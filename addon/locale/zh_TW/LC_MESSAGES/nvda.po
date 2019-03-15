@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 'autoOCR' '0.1.0-dev'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
+"POT-Creation-Date: 2019-03-15 16:56+0800\n"
+"PO-Revision-Date: 2019-03-15 17:00+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_TW\n"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+#: addon\globalPlugins\autoOCR\__init__.py:21 buildVars.py:17
+msgid "Auto OCR"
+msgstr "自動光學字元辨識"
+
+#. Translators: OCR command name in input gestures dialog
+#: addon\globalPlugins\autoOCR\__init__.py:38
+msgid "Toggle auto ocr"
+msgstr "切換自動光學字元辨識"
+
+#. Translators: Reported when Windows 10 OCR is not available.
+#: addon\globalPlugins\autoOCR\__init__.py:45
+msgid "Windows 10 OCR not available"
+msgstr "無法使用Windows 10光學字元辨識"
+
+#. Translators: Reported when auto OCR is disabled
+#: addon\globalPlugins\autoOCR\__init__.py:50
+msgid "Auto OCR Disabled"
+msgstr "自動光學字元辨識已禁用"
+
+#. Translators: Reported when auto OCR is enabled
+#: addon\globalPlugins\autoOCR\__init__.py:54
+msgid "Auto OCR Enabled"
+msgstr "自動光學字元辨識已啟用"
+
+#. Add-on description: can span multiple lines with """ syntax """
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:20
+msgid "Run Windows 10 OCR automatically when current navigator object changes"
+msgstr "當前導航器物件更改時自動運行Windows 10光學字元辨識"
