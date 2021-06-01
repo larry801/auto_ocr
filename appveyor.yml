@@ -1,25 +1,26 @@
 version: "{branch}-{build}"
 environment:
- PY_PYTHON: 2.7-32
+ PY_PYTHON: 3.7-32
 install:
-  - py -m pip install --upgrade pip
-  - py -m pip install --upgrade six
-  - py -m pip install --upgrade setuptools
-  - py -m pip install --upgrade wheel
-  - py -m pip install markdown
-  - py -m pip install scons
+- cmd: >-
+    set PATH=C:\Python37;C:\Python37\Scripts;%PATH%
 
+    python -m pip install -U pip
+
+    pip install wheel
+
+    pip install scons
+
+    pip install markdown
 
 build_script:
-  - scons
-  - scons pot
+- cmd: scons
 
 artifacts:
-  - path: '*.nvda-addon'
-    name: addon
-    type: application/x-nvda-addon
-  - path: '*.pot'
-    type: application/x-pot
+- path: '*.nvda-addon'
+  name: addon
+- path: '*.pot'
+  type: application/x-pot
 deploy:
   release: $(APPVEYOR_REPO_TAG_NAME)
   description: $(APPVEYOR_REPO_TAG_NAME)
