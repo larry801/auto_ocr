@@ -3,7 +3,7 @@
 autoOCR was written by autoOCR <larry.wang.801@gmail.com>
 
 Author: Larry Wang
-NVDA compatibility: from 2018.3 to 2019.1
+NVDA compatibility: from 2018.3 to 2022.1
 Download [development version](https://github.com/larry801/auto_ocr/releases/download/v0.1/autoOCR-0.1.0-dev.nvda-addon)
 
 

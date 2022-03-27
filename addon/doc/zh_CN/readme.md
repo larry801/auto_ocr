@@ -1,7 +1,7 @@
 # 自动OCR #
 
 作者： 莱茵金属
-NVDA兼容性：从2018.3到2019.1
+NVDA兼容性：从2018.3到2022.1
 下载[开发版本]（https://github.com/larry801/auto_ocr/releases/download/v0.1/autoOCR-0.1.0-dev.nvda-addon）
 
 
